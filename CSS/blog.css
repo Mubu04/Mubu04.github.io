@@ -11,6 +11,10 @@ a:visited{
     padding: 2%;
 }
 
+.nav-link{
+    font-size: 66.6666%;
+}
+
 .login-section{
     text-align: left;
     grid-row: 2;
