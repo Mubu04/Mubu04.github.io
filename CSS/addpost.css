@@ -1,0 +1,74 @@
+body {
+    font-family: monospace;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+}
+
+form {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #AE81FF;
+    font-size: 125%;
+}
+
+input[type="text"],
+input[type="button"],
+input[type="submit"],
+input[type="content"]{
+    width: 75%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"],
+input[type="button"] {
+    background-color: #75715E;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+}
+
+input[type="submit"]:hover {
+    background-color: black;
+}
+
+
+.form-header{
+    text-align: center;
+    padding: 2%;
+    font-size: 250%;
+    color: #f92672;
+    font-family: "Kode Mono";
+
+}
+
+.form{
+    grid-column: 2 / span 3;
+    grid-row: 2 / span 3;
+    text-align: center;
+    border: 3px solid #ccc;
+    border-radius: 2%;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 75%;
+    min-height: 100%; /* Minimum height */
+    max-height: 175px; /* Maximum height */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical; /* Allow vertical resizing */
+}
